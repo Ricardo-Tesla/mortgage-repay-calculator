@@ -1,0 +1,104 @@
+html body{
+    background-color: hsl(202, 86%, 94%);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.App{
+    max-width: 1200px;
+    margin-left: 200px;
+    margin-top: 100px; 
+}
+form{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.clear-btn{
+    background-color: white;
+    color: rgb(155, 146, 146);
+    width: 80px;
+    margin-left: 40px;
+    border: none; 
+    padding: 0;
+    text-decoration: underline;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+
+.amount, .term, .rate{
+    display: grid;
+}
+html .span{
+    background-color: hsl(202, 86%, 94%);
+}
+#type1, #type2{
+    margin-right: 20px;
+}
+
+.submit{
+    background-color: hsl(61, 70%, 52%);
+    border-radius: 20px;
+    border: none;
+    padding: 8px 30px;
+    margin-top: 20px;
+}
+button img{
+    margin-right: 8px;
+}
+
+.resultss{
+    background-color: hsl(202, 55%, 16%);
+    color: rgba(211, 208, 208, 0.863);
+    text-align: start;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 100px;
+    width: 600px;
+}
+
+#repayments{
+    color: hsl(61, 70%, 52%);
+}
+.results h3, #total{
+    color: white;
+}
+.outcome-box{
+    background-color: hsl(201, 67%, 14%);
+    border-top: 2px solid hsl(61, 70%, 52%);
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 20px 50px;
+   
+}
+.lime-radio {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+  }
+
+  
+  .lime-radio:checked::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    border-radius: 50%;
+    background-color: hsl(61, 70%, 52%);
+  }
+
+#repayments{
+    font-size: 40px;
+}
